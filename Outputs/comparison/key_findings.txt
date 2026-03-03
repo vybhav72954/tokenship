@@ -1,0 +1,25 @@
+======================================================================
+KEY FINDINGS SUMMARY
+======================================================================
+
+BASELINE:
+  LLaMA-3.1-8B         | GSM8K    | Acc=78.6%  Tokens=245  Lat=0.302s
+  LLaMA-3.1-8B         | MATH-500 | Acc=44.6%  Tokens=533  Lat=0.730s
+  Qwen2.5-7B           | GSM8K    | Acc=84.2%  Tokens=315  Lat=1.127s
+  Qwen2.5-7B           | MATH-500 | Acc=68.4%  Tokens=558  Lat=0.542s
+
+BEST PROMPT METHOD (by Efficiency Score):
+  LLaMA-3.1-8B         | GSM8K    | OnlyNumbers   Acc=80.4%  Savings=53.2%  Eff=70.19
+  Qwen2.5-7B           | GSM8K    | OnlyNumbers   Acc=80.8%  Savings=54.5%  Eff=56.40
+  LLaMA-3.1-8B         | MATH-500 | BeConcise     Acc=42.2%  Savings=18.1%  Eff=9.67
+  Qwen2.5-7B           | MATH-500 | OnlyNumbers   Acc=53.6%  Savings=37.2%  Eff=15.30
+
+TRUNCATION at ratio=0.7:
+  LLaMA-3.1-8B         | GSM8K    | Acc=75.8%  Drop=2.8%
+  LLaMA-3.1-8B         | MATH-500 | Acc=42.4%  Drop=2.2%
+  Qwen2.5-7B           | GSM8K    | Acc=65.4%  Drop=18.8%
+  Qwen2.5-7B           | MATH-500 | Acc=60.0%  Drop=8.4%
+
+ACCURACY DELTA (Qwen - LLaMA) at baseline:
+  GSM8K   : Qwen=84.2%  LLaMA=78.6%  Delta=+5.6%
+  MATH-500: Qwen=68.4%  LLaMA=44.6%  Delta=+23.8%
