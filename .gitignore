@@ -4,3 +4,8 @@ git/
 idea
 idea/
 git
+*.jsonl
+*.zip
+mathloramixed/
+mathlorackpt*/
+Old File/*

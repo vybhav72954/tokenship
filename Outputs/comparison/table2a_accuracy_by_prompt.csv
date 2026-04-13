@@ -1,5 +1,0 @@
-Method,LLaMA-3.1-8B_GSM8K,LLaMA-3.1-8B_MATH-500,Qwen2.5-7B_GSM8K,Qwen2.5-7B_MATH-500
-AbbreWords,79.2,42.0,84.8,69.6
-BeConcise,82.4,42.2,85.8,69.0
-OnlyNumbers,80.4,29.8,80.8,53.6
-Original,78.6,44.6,84.2,68.4
