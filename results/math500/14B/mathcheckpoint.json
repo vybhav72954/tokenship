@@ -1,0 +1,309 @@
+{
+  "results": [
+    {
+      "Method": "Original",
+      "Accuracy": 65.0,
+      "Avg Tokens": 581.68,
+      "Latency(s)": 1.499,
+      "Act Ratio": 581.678,
+      "Correct": 325,
+      "Total": 500
+    },
+    {
+      "Method": "BeConcise",
+      "Accuracy": 66.8,
+      "Avg Tokens": 505.55,
+      "Latency(s)": 1.483,
+      "Act Ratio": 0.869,
+      "Correct": 334,
+      "Total": 500
+    },
+    {
+      "Method": "OnlyNumbers",
+      "Accuracy": 26.4,
+      "Avg Tokens": 29.45,
+      "Latency(s)": 0.827,
+      "Act Ratio": 0.051,
+      "Correct": 132,
+      "Total": 500
+    },
+    {
+      "Method": "AbbreWords",
+      "Accuracy": 66.2,
+      "Avg Tokens": 407.31,
+      "Latency(s)": 1.474,
+      "Act Ratio": 0.7,
+      "Correct": 331,
+      "Total": 500
+    },
+    {
+      "Method": "LC-Prompt",
+      "Accuracy": 65.4,
+      "Avg Tokens": 338.03,
+      "Latency(s)": 1.392,
+      "Act Ratio": 0.581,
+      "Correct": 327,
+      "Total": 500
+    },
+    {
+      "Method": "Truncation0.5",
+      "Accuracy": 39.6,
+      "Avg Tokens": 442.75,
+      "Latency(s)": 0.554,
+      "Act Ratio": 0.761,
+      "Correct": 198,
+      "Total": 500,
+      "Ratio": 0.5
+    },
+    {
+      "Method": "Truncation0.6",
+      "Accuracy": 48.6,
+      "Avg Tokens": 488.82,
+      "Latency(s)": 0.71,
+      "Act Ratio": 0.84,
+      "Correct": 243,
+      "Total": 500,
+      "Ratio": 0.6
+    },
+    {
+      "Method": "Truncation0.7",
+      "Accuracy": 55.4,
+      "Avg Tokens": 523.22,
+      "Latency(s)": 0.883,
+      "Act Ratio": 0.899,
+      "Correct": 277,
+      "Total": 500,
+      "Ratio": 0.7
+    },
+    {
+      "Method": "Truncation0.8",
+      "Accuracy": 59.6,
+      "Avg Tokens": 549.3,
+      "Latency(s)": 1.074,
+      "Act Ratio": 0.944,
+      "Correct": 298,
+      "Total": 500,
+      "Ratio": 0.8
+    },
+    {
+      "Method": "Truncation0.9",
+      "Accuracy": 63.6,
+      "Avg Tokens": 568.39,
+      "Latency(s)": 1.277,
+      "Act Ratio": 0.977,
+      "Correct": 318,
+      "Total": 500,
+      "Ratio": 0.9
+    },
+    {
+      "Method": "LLMLingua0.5",
+      "Accuracy": 33.2,
+      "Avg Tokens": 547.51,
+      "Latency(s)": 1.379,
+      "Act Ratio": 0.941,
+      "Correct": 166,
+      "Total": 500,
+      "Ratio": 0.5
+    },
+    {
+      "Method": "LLMLingua0.6",
+      "Accuracy": 48.8,
+      "Avg Tokens": 572.15,
+      "Latency(s)": 1.406,
+      "Act Ratio": 0.984,
+      "Correct": 244,
+      "Total": 500,
+      "Ratio": 0.6
+    },
+    {
+      "Method": "LLMLingua0.7",
+      "Accuracy": 56.8,
+      "Avg Tokens": 570.05,
+      "Latency(s)": 1.431,
+      "Act Ratio": 0.98,
+      "Correct": 284,
+      "Total": 500,
+      "Ratio": 0.7
+    },
+    {
+      "Method": "LLMLingua0.8",
+      "Accuracy": 61.2,
+      "Avg Tokens": 581.85,
+      "Latency(s)": 1.451,
+      "Act Ratio": 1.0,
+      "Correct": 306,
+      "Total": 500,
+      "Ratio": 0.8
+    },
+    {
+      "Method": "LLMLingua0.9",
+      "Accuracy": 64.8,
+      "Avg Tokens": 581.47,
+      "Latency(s)": 1.471,
+      "Act Ratio": 1.0,
+      "Correct": 324,
+      "Total": 500,
+      "Ratio": 0.9
+    },
+    {
+      "Method": "LoRA0.5",
+      "Accuracy": 49.4,
+      "Avg Tokens": 358.83,
+      "Latency(s)": 0.567,
+      "Act Ratio": 0.617,
+      "Correct": 247,
+      "Total": 500,
+      "Ratio": 0.5
+    },
+    {
+      "Method": "LoRAGuided0.5",
+      "Accuracy": 51.8,
+      "Avg Tokens": 349.95,
+      "Latency(s)": 0.57,
+      "Act Ratio": 0.602,
+      "Correct": 259,
+      "Total": 500,
+      "Ratio": 0.5
+    },
+    {
+      "Method": "LoRASoft0.5",
+      "Accuracy": 53.8,
+      "Avg Tokens": 350.51,
+      "Latency(s)": 0.582,
+      "Act Ratio": 0.603,
+      "Correct": 269,
+      "Total": 500,
+      "Ratio": 0.5
+    },
+    {
+      "Method": "LoRA0.6",
+      "Accuracy": 53.6,
+      "Avg Tokens": 411.16,
+      "Latency(s)": 0.726,
+      "Act Ratio": 0.707,
+      "Correct": 268,
+      "Total": 500,
+      "Ratio": 0.6
+    },
+    {
+      "Method": "LoRAGuided0.6",
+      "Accuracy": 56.0,
+      "Avg Tokens": 400.62,
+      "Latency(s)": 0.73,
+      "Act Ratio": 0.689,
+      "Correct": 280,
+      "Total": 500,
+      "Ratio": 0.6
+    },
+    {
+      "Method": "LoRASoft0.6",
+      "Accuracy": 58.4,
+      "Avg Tokens": 390.6,
+      "Latency(s)": 0.744,
+      "Act Ratio": 0.671,
+      "Correct": 292,
+      "Total": 500,
+      "Ratio": 0.6
+    },
+    {
+      "Method": "LoRA0.7",
+      "Accuracy": 57.6,
+      "Avg Tokens": 466.11,
+      "Latency(s)": 0.902,
+      "Act Ratio": 0.801,
+      "Correct": 288,
+      "Total": 500,
+      "Ratio": 0.7
+    },
+    {
+      "Method": "LoRAGuided0.7",
+      "Accuracy": 60.6,
+      "Avg Tokens": 434.63,
+      "Latency(s)": 0.902,
+      "Act Ratio": 0.747,
+      "Correct": 303,
+      "Total": 500,
+      "Ratio": 0.7
+    },
+    {
+      "Method": "LoRASoft0.7",
+      "Accuracy": 62.2,
+      "Avg Tokens": 421.87,
+      "Latency(s)": 0.921,
+      "Act Ratio": 0.725,
+      "Correct": 311,
+      "Total": 500,
+      "Ratio": 0.7
+    },
+    {
+      "Method": "LoRA0.8",
+      "Accuracy": 61.2,
+      "Avg Tokens": 499.63,
+      "Latency(s)": 1.094,
+      "Act Ratio": 0.859,
+      "Correct": 306,
+      "Total": 500,
+      "Ratio": 0.8
+    },
+    {
+      "Method": "LoRAGuided0.8",
+      "Accuracy": 62.8,
+      "Avg Tokens": 471.0,
+      "Latency(s)": 1.099,
+      "Act Ratio": 0.81,
+      "Correct": 314,
+      "Total": 500,
+      "Ratio": 0.8
+    },
+    {
+      "Method": "LoRASoft0.8",
+      "Accuracy": 64.6,
+      "Avg Tokens": 444.45,
+      "Latency(s)": 1.118,
+      "Act Ratio": 0.764,
+      "Correct": 323,
+      "Total": 500,
+      "Ratio": 0.8
+    },
+    {
+      "Method": "LoRA0.9",
+      "Accuracy": 61.8,
+      "Avg Tokens": 536.29,
+      "Latency(s)": 1.302,
+      "Act Ratio": 0.922,
+      "Correct": 309,
+      "Total": 500,
+      "Ratio": 0.9
+    },
+    {
+      "Method": "LoRAGuided0.9",
+      "Accuracy": 63.6,
+      "Avg Tokens": 497.0,
+      "Latency(s)": 1.306,
+      "Act Ratio": 0.854,
+      "Correct": 318,
+      "Total": 500,
+      "Ratio": 0.9
+    },
+    {
+      "Method": "LoRASoft0.9",
+      "Accuracy": 64.4,
+      "Avg Tokens": 462.06,
+      "Latency(s)": 1.326,
+      "Act Ratio": 0.794,
+      "Correct": 322,
+      "Total": 500,
+      "Ratio": 0.9
+    },
+    {
+      "Method": "LoRAAdaptive",
+      "Accuracy": 61.6,
+      "Avg Tokens": 495.75,
+      "Latency(s)": 1.277,
+      "Act Ratio": 0.852,
+      "Correct": 308,
+      "Total": 500,
+      "Ratio": "adaptive"
+    }
+  ]
+}
